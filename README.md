@@ -10,7 +10,7 @@ Price of Bitcoin was obtained from Coindesk, and the Search Volume Index (SVI)  
 
 ![fig1](https://github.com/rdatta31/Cryptocurrency-Google-Trends/blob/master/Images/Price_SVIBitcoin.png)
 
-<img src="https://github.com/rdatta31/Cryptocurrency-Google-Trends/blob/master/Images/Price_SVIBitcoin.png" class="img-responsive" alt="">
+<img src="https://github.com/rdatta31/Cryptocurrency-Google-Trends/blob/master/Images/Price_SVIBitcoin.png" alt="Figure 1">
 
 *Figure 1: Variation of Bitcoin Price and Google Search Results for Bitcoin with Time*
 
