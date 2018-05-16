@@ -16,7 +16,7 @@ Price of Bitcoin was obtained from Coindesk, and the Search Volume Index (SVI)  
 
 Figure 1 shows that the price follows the same trend as the SVI. When more people are talking about Bitcoin, the price of the cryptocurrency is high and vice versa.  The correlation coefficient was found to be <img src="http://latex.codecogs.com/gif.latex?$$r&space;=&space;0.8742$$" title="$$r = 0.8742$$" />. The data depicts that a peak in the SVI is typically followed by a peak in the price. Similarly, a dip in popularity of Bitcoin is followed by a dip in the price. The lag time between SVI and price is about two weeks. 
 
-![fig2](https://raw.githubusercontent.com/rdatta31/Cryptocurrency-Google-Trends//master/Images/Price_SVIBitcoinSellBuy.png)
+![fig2](https://raw.githubusercontent.com/rdatta31/Cryptocurrency-Google-Trends/master/Images/Price_SVIBitcoinSellBuy.png)
 
 *Figure 2: Variation of Bitcoin Price with Google Search Results for Bitcoin*
 
