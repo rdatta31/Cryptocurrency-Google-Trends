@@ -1,4 +1,4 @@
-##Predicting Fluctuations in Cryptocurrency Prices from Google Trends Data
+## Predicting Fluctuations in Cryptocurrency Prices from Google Trends Data
 
 **Introduction**
 
