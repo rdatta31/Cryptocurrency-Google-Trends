@@ -2,13 +2,15 @@
 
 **Introduction**
 
+
+
 The objective of this study is to determine if any correlation of statistical significance exists between the price of the cryptocurrency Bitcoin and the popularity of the search term Bitcoin on Google. The hypothesis follows that Interest in the cryptocurrency can be measured via the search volume of Bitcoin related terms on Google. These terms may be used as indicator of demand for Bitcoin, and predict future price changes in the short term. 
 
 **Methodology**
 
 Price of Bitcoin was obtained from Coindesk, and the Search Volume Index (SVI)  for the term Bitcoin was obtained from Google Trends, for the time period between May, 2107 and May, 2018. Both sets of data were normalized for comparison of how changes in the search volume correlate with changes in the price. 
 
-<img src="/Images/Price_SVIBitcoin.png" alt="Figure 1">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hausziege_04.jpg/1280px-Hausziege_04.jpg" alt="Figure 1">
 
 *Figure 1: Variation of Bitcoin Price and Google Search Results for Bitcoin with Time*
 
