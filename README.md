@@ -18,7 +18,7 @@ Figure 1 shows that the price follows the same trend as the SVI. When more peopl
 
 *Figure 2: Variation of Bitcoin Price with Google Search Results for Bitcoin*
 
-Figure 2 shows the linear regression model of the variation of the price of bitcoin with SVI. The regression model equation was found to be $$Price = 149.85*SVI + 3051.732$$. The correlation coefficient ($$r = 0.8742$$) is high, while the p-value is low ($$p−value = 4.368*10^{−11}$$). Since the p-value is less than 5%, the  effect of randomness of the data is negligible.
+Figure 2 shows the linear regression model of the variation of the price of bitcoin with SVI. The regression model equation was found to be <img src="http://latex.codecogs.com/gif.latex?$$Price&space;=&space;149.85*SVI&space;&plus;&space;3051.732$$" title="$$Price = 149.85*SVI + 3051.732$$" />. The correlation coefficient <img src="http://latex.codecogs.com/gif.latex?\inline&space;$$r&space;=&space;0.8742$$" title="$$r = 0.8742$$" /> is high, while the p-value is low (<img src="http://latex.codecogs.com/gif.latex?\inline&space;$$p−value&space;=&space;4.368*10^{−11}$$" title="$$p−value = 4.368*10^{−11}$$" />). Since the p-value is less than 5%, the  effect of randomness of the data is negligible.
 The same analysis was performed with the search terms Buy Bitcoin and Sell Bitcoin. 
 
 ![fig3](https://github.com/rdatta31/Cryptocurrency-Google-Trends/blob/master/Images/SVIBitcoinRegression.png)
@@ -31,7 +31,7 @@ The same trend was observed, as shown in Figure 3. Something to note is that the
 
 *Figure 4: Variation of Bitcoin Price with SVI for Buy Bitcoin*
 
-Figure 4 shows the linear regression model of the variation of the price of bitcoin with SVI for the search term Buy Bitcoin. The regression model equation was found to be Price = 117.18*SVI + 4624.283. The correlation coefficient ($$r = 0.7653$$) is not as high as that for the search term Bitcoin, and the p-value is low ($$p−value = 5.08*10^{−6}$$). Since the p-value is less than 5%, the  effect of randomness of the data is negligible.
+Figure 4 shows the linear regression model of the variation of the price of bitcoin with SVI for the search term Buy Bitcoin. The regression model equation was found to be <img src="http://latex.codecogs.com/gif.latex?\inline&space;$$Price&space;=&space;117.18*SVI&space;&plus;&space;4624.283$$" title="$$Price = 117.18*SVI + 4624.283$$" />. The correlation coefficient (<img src="http://latex.codecogs.com/gif.latex?\inline&space;$$r&space;=&space;0.7653$$" title="$$r = 0.7653$$" />) is not as high as that for the search term Bitcoin, and the p-value is low (<img src="http://latex.codecogs.com/gif.latex?\inline&space;$$p−value&space;=&space;5.08*10^{−6}$$" title="$$p−value = 5.08*10^{−6}$$" />). Since the p-value is less than 5%, the  effect of randomness of the data is negligible.
 
 **Conclusions**
 
