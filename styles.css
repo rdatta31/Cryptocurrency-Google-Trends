@@ -30,7 +30,7 @@
 .sidenav{
 
     background-color: #F8F8F8;
-    height: auto; 
+    height: auto%; 
     width: 0%; 
     position: fixed; 
     z-index: 1; 
@@ -60,6 +60,7 @@
     margin-top: 2%;
     margin-left: 10%;
     margin-right: 10%;
+    margin-bottom: 2%
 }
     .main {margin-left: 35%;}
     .main {width: auto;
@@ -98,15 +99,14 @@ h3 {
 
 h4{
     text-align: justify;
-    text-justify: inter-word;
     color: #267CB9;
     text-align: center;
     font-family: 'Proxima Nova Soft','Helvetica Neue', Helvetica, Serif;
     font-size: 200%;
     margin: 5% 0 0;
     padding-top: 3%;
-    padding-left: 3%;
-    padding-right: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
     line-height: 1.1;
 
 }
@@ -132,13 +132,7 @@ body{
     margin: auto;
 }
 
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 20%;
-    height: auto;
-}
+
 
 a{
      color: #727272; 
