@@ -9,8 +9,8 @@
 
 		<div class = "sidenav">
 
-			<h4 align = "center"> Fighting Parasitic Infestation in Marsabit, Kenya </h4>
-			<p align = "center"> August 2016 - December 2016</p>
+			<h4 align = "center"> Predicting Fluctuations in Cryptocurrency Prices from Google Trends Data </h4>
+			
 
 				
 				<div class = "foot">
@@ -26,8 +26,8 @@
 		<div class = "main">
 
 			<div class = "top">
-				<h4 align = "center"> Fighting Parasitic Infestation in Marsabit, Kenya </h4>
-			<p align = "center"> August 2016 - December 2016</p>
+				<h4 align = "center"> Predicting Fluctuations in Cryptocurrency Prices from Google Trends Data </h4>
+	
 				
 					<p aligh="center">  Rishabh Datta is a 4th Year Mechanical Engineering student at Georgia Tech, Atlanta. Rishabh is interested in Green Technology, Renewable Energy, Data Science, and CFD. For more projects, 
 					<a href="url">click here.</a>
@@ -38,34 +38,48 @@
 
 
 	
-	<h1> Sustainable Footwear for Tribes in Marsabit, Kenya </h1><br>
-	<h2> Overview </h2>
+	<h1> How Bitcoin Prices Change with Popularity of Google Search Terms </h1><br>
+	<h2> Introduction </h2>
 	
-	<p> The town of Marsabit is an outpost of urban civilization in the vast desert of northern Kenya. <i>Jiggers</i> infestation is a major health issue endangering tribal societies in East Africa. <i>Jiggers</i>  are a small flea-like insect that burrows into the skin of fingers and toes and eats away the flesh. Over 1.8 million children are said to be affected by <i>Jiggers</i> in Kenya.</p>
-
-	
-
-		<p> The objective of this project was to develop a sustainable approach to solving the <i>Jigger</i> problem. More specifically, the goal was to design economic and easily accessible footwear, and a sustainable manufacturing process which the tribes could employ.<p>
-
-			<p> The project was completed in partnership with Partners for Care, and Dr. Joyelle Harris, Georgia Institute of Technology.</p><br>
-
-	<h2> Proposed Solutions </h2>
-
-		<p> An important aspect of the project was to leverage existing skills within the tribe. The proposed soulution was footwear designed using locally available materials, which could be sewed and knitted by the tribes using existing skills and materials. </p><br>
-
-		<h3> <b>Materials Used</b> </h3>
-			<ul>
-				<li> Fabric </li>
-				<li> Natural Fibres e.g. Corn Husk </li>
-				<li> Recyclable Plastic </li>
-				<li> Sewing Materials </li>
-			</ul>
-	
-			<p> <i> Total Cost </i> ~ $0.50 per pair </p><br>
+	<p> TThe objective of this study is to determine if any correlation of statistical significance exists between the price of the cryptocurrency Bitcoin and the popularity of the search term Bitcoin on Google. The hypothesis follows that Interest in the cryptocurrency can be measured via the search volume of Bitcoin related terms on Google. These terms may be used as indicator of demand for Bitcoin, and predict future price changes in the short term.</p>
 
 
-			<h2> Performance & User Testing </h2>
-			<p> The product was field tested by users in Marsabit, Kenya. Overall, the product recieved positive reviews with users citing features such as comfort and protection as key factors. The product was economic, easy to make, and the materials needed were easily accessible. Areas of improvement included durability of the shoe over rocky terrain, and protection from dust in the desert environment. Future steps include reinforcing the base and sole of the shoe, with multiple layers of plastic, or similar rigid materials. In addition, the use of thicker fabric (such as denim) could possibly add to the structural durability, and attract less dust in outdoor environments.</p>
+
+	<h2> Methodology </h2>
+
+		<p> Price of Bitcoin was obtained from Coindesk, and the Search Volume Index (SVI) for the term Bitcoin was obtained from Google Trends, for the time period between May, 2107 and May, 2018. Both sets of data were normalized for comparison of how changes in the search volume correlate with changes in the price. </p><br>
+
+		<p align="center"><img src="https://raw.githubusercontent.com/rdatta31/Cryptocurrency-Google-Trends/master/Images/Price_SVIBitcoin.png" alt="Figure 1" width="100%"></p>
+
+<p  align="center"> Figure 1: Variation of Bitcoin Price and Google Search Results for Bitcoin with Time<i> </i></p>
+
+<p> Figure 1 shows that the price follows the same trend as the SVI. When more people are talking about Bitcoin, the price of the cryptocurrency is high and vice versa.  The correlation coefficient was found to be <img src="http://latex.codecogs.com/gif.latex?$$r&space;=&space;0.8742$$" title="$$r = 0.8742$$" />. The data depicts that a peak in the SVI is typically followed by a peak in the price. Similarly, a dip in popularity of Bitcoin is followed by a dip in the price. The lag time between SVI and price is about two weeks. </p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/rdatta31/Cryptocurrency-Google-Trends/master/Images/Price_SVIBitcoinSellBuy.png" width="100%" alt="Figure 2"></p>
+<p align="center"> <i> Figure 2: Variation of Bitcoin Price with Google Search Results for Bitcoin</i></p>
+
+<p>Figure 2 shows the linear regression model of the variation of the price of bitcoin with SVI. The regression model equation was found to be <img src="http://latex.codecogs.com/gif.latex?$$Price&space;=&space;149.85*SVI&space;&plus;&space;3051.732$$" title="$$Price = 149.85*SVI + 3051.732$$" />. The correlation coefficient <img src="http://latex.codecogs.com/gif.latex?\inline&space;$$r&space;=&space;0.8742$$" title="$$r = 0.8742$$" /> is high, while the p-value is low (<img src="http://latex.codecogs.com/gif.latex?\inline&space;$$p−value&space;=&space;4.368*10^{−11}$$" title="$$p−value = 4.368*10^{−11}$$" />). Since the p-value is less than 5%, the  effect of randomness of the data is negligible.
+The same analysis was performed with the search terms Buy Bitcoin and Sell Bitcoin. </p>
+
+<p align="center" ><img src="https://raw.githubusercontent.com/rdatta31/Cryptocurrency-Google-Trends/master/Images/SVIBitcoinRegression.png" alt="Figure 3" width="100%"></p>
+<p align="center"> <i> Figure 3: Variation of Bitcoin Price and Google Search Results for Buy Bitcoin & Sell Bitcoin with Time</i></p>
+
+<p> The same trend was observed, as shown in Figure 3. Something to note is that the SVI for the terms Buy Bitcoin and Sell Bitcoin seems to follow the same trend. Both search terms are equally popular at any point in time. The lag between the peak popularities of the search terms is again found to be about 2 weeks. </p>
+
+<p align="center"><img src="https://raw.githubusercontent.com/rdatta31/Cryptocurrency-Google-Trends/master/Images/SVIBitcoinRegression2.png" alt="Figure 4" width="100%"></p>
+<p class="text-center" align="center"> <i> Figure 3: Figure 4: Variation of Bitcoin Price with SVI for Buy Bitcoin</i></p>
+
+<p>Figure 4 shows the linear regression model of the variation of the price of bitcoin with SVI for the search term Buy Bitcoin. The regression model equation was found to be <img src="http://latex.codecogs.com/gif.latex?\inline&space;$$Price&space;=&space;117.18*SVI&space;&plus;&space;4624.283$$" title="$$Price = 117.18*SVI + 4624.283$$" />. The correlation coefficient (<img src="http://latex.codecogs.com/gif.latex?\inline&space;$$r&space;=&space;0.7653$$" title="$$r = 0.7653$$" />) is not as high as that for the search term Bitcoin, and the p-value is low (<img src="http://latex.codecogs.com/gif.latex?\inline&space;$$p−value&space;=&space;5.08*10^{−6}$$" title="$$p−value = 5.08*10^{−6}$$" />). Since the p-value is less than 5%, the  effect of randomness of the data is negligible.</p>
+
+<h2> Conclusions </h2>
+
+<p>The terms Buy Bitcoin, Sell Bitcoin and Bitcoin can be seen as indicators of the demand for the cryptocurrency. When the SVIs for these terms are rising, the price of the cryptocurrency continues to rise and vice versa. However, the results only show statistically significant correlation, not causation. The dimensions affecting price are simply too many.  A BLSH (Buy Low Sell High) short term-strategy based on these results seems to be as follows 1) Buy bitcoin ~ 2 weeks after when SVI is at a minimum 2) Sell Bitcoin ~2 weeks after SVI is at a maximum. </p>
+
+
+
+
+			
+
 		</div>
 		
 
